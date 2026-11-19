@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- dotnet build -c Release -p:KSPRoot=/path/to/KSP -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>LmpRetooledShim</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(KSPRoot)/KSP_x64_Data/Managed/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(KSPRoot)/KSP_x64_Data/Managed/UnityEngine*.dll" Private="false" />
+    <Reference Include="$(KSPRoot)/GameData/000_Harmony/0Harmony.dll" Private="false" />
+  </ItemGroup>
+</Project>

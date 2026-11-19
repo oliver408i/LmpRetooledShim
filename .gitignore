@@ -1,0 +1,6 @@
+# build output and release binaries (attach the zip/DLL to GitHub Releases instead)
+*.dll
+*.zip
+bin/
+obj/
+out/
