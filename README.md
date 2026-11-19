@@ -10,8 +10,10 @@ Retooled itself. Workaround only. See KSP1Retooled/retooled#35.
 
 ## Install
 
-Copy `GameData/000_LmpRetooledShim` into your KSP `GameData`. It needs HarmonyKSP (`000_Harmony`), which
+Download the zip from Releases. Copy `GameData/000_LmpRetooledShim` into your KSP `GameData`. It needs HarmonyKSP (`000_Harmony`), which
 LMP already includes. Remove it once LMP supports Retooled.
+
+Use Latest LMP (0.29.2 tested). No modifications needed to the LMP server.
 
 ## Build
 
